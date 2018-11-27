@@ -35,3 +35,15 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+.left {
+  text-align: left;
+}
+
+.right {
+  float: right;
+}
+
+.card{
+  min-height: 500px;
+}

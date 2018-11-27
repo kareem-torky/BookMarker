@@ -20,33 +20,48 @@
 
 <div class="container">
     <div class="row">
+        <!-- Add to Bookmarks form -->
         <div class="col-lg-4">
             <form id="add-bookmark-form" class="form">
                 <img class="mb-4" src="images/bookmark.png" alt="" width="72" height="72">
                 <h4 class="h4 mb-3 font-weight-normal"><b>Bookmark your favourites</b></h4>
 
                 <label for="site-name" class="sr-only">Site name</label>
-                <input type="text" id="site-name" class="form-control" placeholder="Site Name" autofocus>
+                <input type="text" id="site-name" class="form-control" placeholder="Site Name" autofocus required>
                 
                 <label for="site-URL" class="sr-only">Site URL</label>
-                <input type="text" id="site-URL" class="form-control" placeholder="Site URL">
+                <input type="text" id="site-URL" class="form-control" placeholder="Site URL" required>
                 <br>
                 
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Add to Bookmarks</button>
-                <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                <p class="mt-5 mb-3 text-muted">Designed By: Kareem M. Fouad</p>
             </form>
         </div>
-        <div class="col-lg-8">
 
+        <!-- Placeholder -->
+        <div class="col-lg-2">
+        </div>
+
+        <!-- Display bookmarks card -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <p>Saved Bookmarks</p>
+                </div>                           
+                <div  id="bookmarks-card" class="card-body">
+
+                </div>
+              </div>
         </div>
     </div>
 </div>
 
-
+<!-- Bootstrap JS requirements -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 
+<!-- Custom JS code -->
 <script src="js/main.js"></script>
 
 </body>
