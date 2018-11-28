@@ -1,5 +1,5 @@
 # BookMarker
-A bookmarker page using vanilla Javascript and Bootstrap (Frontend only).
+A simple bookmarker page using vanilla Javascript and Bootstrap (Frontend only).
 
 <h2>Description:</h2>
 You can add to/remove from the list of your bookmarks.
